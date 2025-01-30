@@ -1,0 +1,18 @@
+Lab 2 Submission
+---------------------------
+
+# Files & Descriptions  
+
+- **`lab02_init.ino`** – Arduino initialization code.  
+- **`rpicom_500.py`** – Raspberry Pi communication (500ms sampling).  
+- **`rpicom_ml.py`** – ML-related communication script.  
+- **`log_values.txt`** – Logged experiment data.  
+- **`ml_logs.txt`** – ML process logs.  
+- **`ml_plot.png`** – ML results visualization.  
+- **`Lab2_notebook.pdf`** – Lab report & analysis.  
+
+# Usage 
+1. Upload `lab02_init.ino` to the microcontroller.  
+2. Run Python scripts as needed.  
+3. Check logs & plots for results.  
+4. Refer to `Lab2_notebook.pdf` for details.  
