@@ -1,0 +1,19 @@
+# Lab 2 Submission: Part 2
+---------------------------
+
+# Files & Descriptions  
+
+- **`lab02_init.ino`** – Arduino initialization code.  
+- **`Lab2_notebook.pdf_2`** – Lab report & analysis.  
+- **`make_sine_regress_model.py`** – New DL-model.  
+- **`plot_2layers.png`** – ML results visualization.  
+- **`plot_comparison.png`** – ML results visualization.  
+- **`plot_quantitazed.png`** – ML results visualization.  
+- **`plot_three_models.png`** – ML results visualization.  
+- **`rpicom_ml.py`** – ML-related communication script.  
+
+# Usage 
+1. Upload `lab02_init.ino` to the microcontroller.  
+2. Run Python scripts as needed.  
+3. Check logs & plots for results.  
+4. Refer to `Lab2_notebook_2.pdf` for details.

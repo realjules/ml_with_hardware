@@ -73,11 +73,11 @@ void setup(){
 void HandleOutput_ml(double x, double y) {
     // Format x value with 3 decimal places
     dtostrf(x, 10, 3, varbuf);
-    csc_write_data(CSC_CMD_WRITE_PI_LOG, (byte*)varbuf, strlen(varbuf));
+    csc_write_data(CSC_CMD_WRITE_PI_MLX, (byte*)varbuf, strlen(varbuf));
 
     // Format y value with 3 decimal places  
     dtostrf(y, 10, 3, varbuf);
-    csc_write_data(CSC_CMD_WRITE_PI_LOG, (byte*)varbuf, strlen(varbuf));
+    csc_write_data(CSC_CMD_WRITE_PI_MLY, (byte*)varbuf, strlen(varbuf));
 }
 
 void loop() {

@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 
 # Constants
 MAX_SAMPLES = 500
-DATA_OUTPUT_PATH = 'ml_logs.txt'
-PLOT_OUTPUT_PATH = "half_plot.png"
+DATA_OUTPUT_PATH = 'logs_quantitazed.txt'
+PLOT_OUTPUT_PATH = "plot_quantitazed.png"
 SERIAL_PORT = '/dev/ttyACM0'
 BAUD_RATE = 115200
 
